@@ -34,5 +34,6 @@ jobs:
           echo "chao"
           pip install pytest
           pwd
-          ls ..
+          ls
+          pip install requests
           pytest -q mainSpec.py
