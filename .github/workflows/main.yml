@@ -30,4 +30,6 @@ jobs:
           echo "hola"
           echo "chao"
           pip install pytest
+          pwd
+          ll
           pytest -q ../../mainSpec.py
