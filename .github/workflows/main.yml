@@ -31,5 +31,5 @@ jobs:
           echo "chao"
           pip install pytest
           pwd
-          ls
-          pytest -q mainSpec.py
+          ls $GITHUB_PATH
+          pytest -q $GITHUB_PATH/mainSpec.py
