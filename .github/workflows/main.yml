@@ -30,10 +30,5 @@ jobs:
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
       - name: Run a one-line script
         run: |
-          echo "hola"
-          echo "chao"
-          pip install pytest
-          pwd
-          ls
-          pip install requests
+          python -m pip install -r requirements.txt
           pytest -q mainSpec.py
