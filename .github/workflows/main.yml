@@ -35,4 +35,4 @@ jobs:
           pip install pytest
           pwd
           ls ..
-          pytest -q $GITHUB_PATH/mainSpec.py
+          pytest -q mainSpec.py
