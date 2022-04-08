@@ -19,4 +19,4 @@ jobs:
       - name: Build Docker Image
         run: docker build . --file Dockerfile --tag ${{secrets.DOCKER_USER}}/stars:${GITHUB_REF##*/} #https://github.community/t/how-to-get-just-the-tag-name/16241
       - name: push
-        run: docker push ${{secrets.DOCKER_USER}}/stars
+        run: docker push ${{secrets.DOCKER_USER}}/stars:${GITHUB_REF##*/}
