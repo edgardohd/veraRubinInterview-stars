@@ -13,16 +13,18 @@ The output of this program should be something like this:
     996icu/996.ICU: 261666
     EbookFoundation/free-programming-books: 230006
     freeCodeCamp/freeCodeCamp: 343651
+    
+It is assumed that you have python 3 and the docker CLI installed in your system.
 
 ## Building the Docker Image
 
 Follow the steps below:
 
-1. Use a command line to login to your Docker Hub account:
+1. Use the command line to login to your Docker Hub account:
     
     ```docker login```
 
-2. Go to de directory where the Dockerfile is and execute:
+2. Go to the Dockerfile directory and execute:
 
     ```docker build .```
   
